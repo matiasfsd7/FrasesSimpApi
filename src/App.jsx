@@ -32,7 +32,7 @@ function App() {
         <img src={logo} alt="Logo de los simpson" className="w-50" />
         <Frase datosPersonaje={personaje}></Frase>
         <Button variant="warning" onClick={consultarApi}>
-          Obtener frase
+          Obtener frase nueva
         </Button>
       </Container>
     </>
