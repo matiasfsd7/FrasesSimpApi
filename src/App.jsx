@@ -20,7 +20,7 @@ function App() {
       const dato = await respuesta.json();
       console.log(respuesta);
       console.log(dato[0]);
-      setPersonaje[dato[0]];
+      setPersonaje(dato[0]);
     } catch (error) {
       console.log(error);
     }
