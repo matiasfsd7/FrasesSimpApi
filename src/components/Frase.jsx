@@ -18,7 +18,7 @@ const Frase = ({ datosPersonaje }) => {
             </blockquote>
             <figcaption className="blockquote-footer">
               {datosPersonaje.character}
-              <cite title="Source Title">The simpsons</cite>
+              <cite title="Source Title"> The simpsons</cite>
             </figcaption>
           </figure>
         </Card.Body>
