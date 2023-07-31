@@ -14,13 +14,11 @@ const Frase = ({ datosPersonaje }) => {
         <Card.Body>
           <figure>
             <blockquote className="blockquote">
-              <p>
-                Shoplifting is a victimless crime, like punching someone in the
-                dark.
-              </p>
+              <p> {datosPersonaje.quote} </p>
             </blockquote>
             <figcaption className="blockquote-footer">
-              Nelson Muntz in <cite title="Source Title">The simpsons</cite>
+              {datosPersonaje.character}
+              <cite title="Source Title"> The simpsons</cite>
             </figcaption>
           </figure>
         </Card.Body>
